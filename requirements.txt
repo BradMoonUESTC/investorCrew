@@ -1,0 +1,7 @@
+crewai
+requests
+flask_sqlalchemy
+flask
+langchain_community
+fuzzywuzzy
+pandas
