@@ -7,7 +7,7 @@ import pandas as pd
 import tools.dataframe_parser as dataframe_parser
 from crewai_tools import tool
 class Web3EventLoader(object):
-    api_key = "f106d97f8b3782f83fa2d2ffa2cc0493"
+    api_key = ""
     state_file = os.getenv("STATE_FILE", "_web3_state")
 
     def __init__(self) -> None:

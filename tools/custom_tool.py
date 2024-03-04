@@ -13,7 +13,7 @@ class TwitterTool(BaseTool):
     def _run(tool_input: str) -> str:
         print("From TwitterTool itself——twitter search key word:",tool_input)
         # Implementation goes here
-        api_key = "f106d97f8b3782f83fa2d2ffa2cc0493"
+        api_key = ""
         # 设置API的URL和API密钥
         url = f"https://v.meta001.net/api/twitter/search?query={tool_input}"
 
@@ -65,7 +65,7 @@ class EventTool(BaseTool):
         
     def _get_scout_events(trigger=""):
         # 设置API的URL和API密钥
-        api_key="f106d97f8b3782f83fa2d2ffa2cc0493"
+        api_key=""
         url = f"https://v.meta001.net/api/metascout/alerts?trigger={trigger}"
 
         # 设置请求的Headers
@@ -146,7 +146,7 @@ class AttackTool(BaseTool):
         
     def _get_attacks():
         # 设置API的URL和API密钥
-        api_key="f106d97f8b3782f83fa2d2ffa2cc0493"
+        api_key=""
         url = f"https://v.meta001.net/api/attack/list?pageSize=1300"
 
         # 设置请求的Headers
