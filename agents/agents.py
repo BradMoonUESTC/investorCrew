@@ -4,8 +4,8 @@ from textwrap import dedent
 from crewai import Agent
 from langchain_community.tools import DuckDuckGoSearchRun,DuckDuckGoSearchResults
 # from tools import TokenTools
-from tools import Web3EventLoader
-from custom_tool import TwitterTool,EventTool
+from tools.tools import Web3EventLoader
+from tools.custom_tool import TwitterTool,EventTool
 from langchain.agents import Tool
 class Web3Agents():
 	def __init__(self):

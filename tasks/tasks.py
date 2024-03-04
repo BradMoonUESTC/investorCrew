@@ -1,7 +1,7 @@
 from textwrap import dedent
 
 from crewai import Task
-from tools import Web3EventLoader
+from tools.tools import Web3EventLoader
 
 class Web3Tasks:
 	def events_analyse_task(self, agent, posted, new_events):
